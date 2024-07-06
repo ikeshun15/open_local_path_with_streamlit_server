@@ -1,11 +1,10 @@
 # Open Local File with Streamlit (Server)
+Please use with a [client flask server](https://github.com/ikeshun15/open_local_path_with_streamlit_client).
 
 ## 1.Make from .env_sample and set IP address and port number
 ```dotenv
-SERVER_IP="XXX.XXX.XXX.XXX"
-STREAMLIT_SERVER_PORT="XXXX"
-FLASK_SERVER_PORT="XXXX"
-FLASK_CLIENT_PORT="XXXX"
+STREAMLIT_SERVER_PORT="XXXXX"
+FLASK_CLIENT_SERVER_PORT="XXXXX"
 ```
 
 ## 2-1 Create environment and run Streamlit server (Miniconda)

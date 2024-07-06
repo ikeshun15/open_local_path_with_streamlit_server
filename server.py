@@ -6,7 +6,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# 環境変数を取得
 FLASK_CLIENT_SERVER_PORT = os.getenv('FLASK_CLIENT_SERVER_PORT')
 
 def get_remote_ip() -> str:
