@@ -18,6 +18,10 @@ conda activate python311_open_local_path_with_streamlit_server
 ```
 
 ```bash
+pip install -r requirements.txt
+```
+
+```bash
 streamlit run server.py
 ```
 
